@@ -2,14 +2,14 @@
 #For en_US firmware 1.40
 #100mbs high quality, 60mbs medium
 #4k 30p
-writew 0xA061AFFE 0x42C0
+writew 0xA061AFFE 0x42E8
 writew 0xA061B00E 0x4270
 #4k ultra 24p 110mbs high, 90mbs medium, 60mbs low
 writew 0xA061B02E 0x42D4
 writew 0xA061B03E 0x42AC
 writew 0xA061B04E 0x4270
 #2.7k 60p
-writew 0xA061B0BE 0x42C0
+writew 0xA061B0BE 0x42E8
 writew 0xA061B0CE 0x4270
 #720 240p
 writew 0xA061BC5E 0x42C0
